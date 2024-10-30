@@ -1,0 +1,106 @@
+ody {
+    font-family: Roboto, Arial, Tahoma, Veranda;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+header {
+    background-image: url(/images/header-moi.png);
+    background-size: 100%;
+    width: 1550px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
+.ilogin {
+    background-image: url(/images/login.png);
+    color: #0b4da3;
+    display: block;
+    font-weight: 700;
+    line-height: 25px;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    font-size: 14px;
+}
+
+#txtSearch {
+    background-image: url(/images/logo-search.png) ;
+    width: 170px;
+    height: 20px;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 5px;
+    
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    
+}
+li {
+    display: inline-block;
+    padding: 8px;
+    
+
+}
+
+.boxngonngu ul {
+    float: right;
+    padding: 8px;
+}
+
+.boxngonngu {
+    margin-top: -40px ;
+    margin-right: 100px ;
+}
+ 
+.active {
+    background-color: #0b4da3;
+   
+}
+
+.icon-home {
+    background-image: url(/images/icon-home.png);
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+.active ul {
+    margin: 0px 250px ;
+    text-align: center;
+}
+
+.active ul li {
+    border-right: 1px solid rgb(193, 187, 187);
+    padding : 3px;
+    height: 35px;
+    width: 2000px;
+    
+    
+}
+
+.active ul li a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    
+    
+}
+
+.banner {
+  text-align: center;
+  margin-top: 10px;
+}
+noti

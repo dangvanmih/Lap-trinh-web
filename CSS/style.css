@@ -1,0 +1,21 @@
+h3{
+    color: red; background-color: black; text-align: center;
+}
+div {
+    background-color: blanchedalmond;
+}
+div span{
+    font-size: 25px;
+    color: orange;
+}
+ .title {
+    color: green;
+    background: #000;
+ }
+.text {
+    color: goldenrod;
+    background: #000;
+    margin: 50px 20px 10px 60px;
+    width: 40%;
+    padding: 50px;
+} 

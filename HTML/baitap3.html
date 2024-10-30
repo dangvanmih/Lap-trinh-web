@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <form oninput="x.value = Math.sqrt(Math.pow(parseInt(a.value),2) + Math.pow(parseInt(b.value),2))">
+        <table>
+            <caption>
+                <font color = "red">
+                    <h1><b>Cạnh huyền tam giác vuông</b></h1>
+                </font>    
+            </caption>
+            <tr>
+                <td bgcolor="#2C8E86">Cạnh A: <input type="number"id="a"><br></td>
+            </tr>
+            <tr>
+                <td bgcolor="#2C8E86">Cạnh B: <input type="number"id="b"><br></td>
+            </tr>
+            <tr>
+                <td bgcolor="#2C8E86">Cạnh huyền: <output name="x" for="a b"></output></td>
+            </tr>
+            <tr>
+                <td>Công thức:</td>
+            </tr>
+            <tr>
+                <td>Căn bậc 2: Math.sqrt(x)</td>
+            </tr>
+            <tr>
+                <td>Bình phương: Math.pow(x,2)</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

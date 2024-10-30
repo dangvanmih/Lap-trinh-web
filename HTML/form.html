@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <Marquee>Đặng Văn Minh</Marquee>
+    <Marquee>
+        <img height="100" width="100" src="/images/goku-super-saiyan-4-wallpaper-2560x1080_14.jpg" alt="Ảnh">
+    </Marquee>
+    <br><br>
+    <audio controls>
+        <source src="images/audio.mp3.mp3" type="audio/mpeg">
+    </audio>
+    <Marquee>
+        <video height="100" width="100" controls>
+            <source src="images/video.mp4.mp4" type="video/mp4">
+        </video>
+    </Marquee>
+    <br>
+    Thẻ &lt;h1/h1&gt;dùng để viết tiêu đề
+    <h1>Form</h1>
+    <form>
+        <!-- readonly chỉ đọc và không thay đổi được -->
+        Năm: <input type="text" value="2024" readonly>
+        <br><br>
+
+        Họ: <input type="text" name="firstName" placeholder="Nhập thông tin Họ">
+        <br><br>
+
+        Tên: <input type="text1303" name="lastName" placeholder="Nhập thông tin tên">
+        <br><br>
+
+        lyrics of song: <textarea name=""></textarea>
+        <br><br>
+
+        email: <input type="email" name="Nhập thông tin email">
+        <input type="submit" value="Gửi">
+        <br><br>
+
+        số điện thoại: <input type="tel" name="telephone" placeholder="Dạng số 1-234-567-8910">
+        <br><br>
+
+        <input type="radio" name="sex" value="male">Male<br>
+        <input type="radio" name="sex" value="female">Female<br>
+        <input type="radio" name="sex  " value="unknown">Unknown <br>
+        <br><br>
+
+        Hobby:
+        Game:<input type="checkbox" name="hobby" value="game"> <br>
+        Music:<input type="checkbox" name="hobby" value="music"> <br>
+        Sport:<input type="checkbox" name="hobby" value="sport"> <br>
+        Cooking:<input type="checkbox" name="hobby" value="cooking"> <br><br>
+        <button>Gửi</button>
+        <br><br>
+
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Internet explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+        </datalist>
+        <br><br>
+
+        <select name="browsers" multiple>
+            <option value="0">Internet explorer</option>
+            <option value="1">Firefox</option>
+            <option value="2">Chrome</option>
+            <option value="3">Opera</option>
+            <option value="4">Safari</option>
+            <option value="5">Cốc Cốc</option>
+            <br><br>
+
+            0 <input type="range" value="50"> 100
+            <br><br>
+
+            Quantity (between 1 and 5):
+            <input type="number" name="quantity" min="0" max="5" step="0.2">
+            <br><br>
+
+            <input type="reset">
+
+        </select>
+
+    </form>
+    <br><br>
+
+    <form oninput="x.value=parseInt(a.value) + parseInt(b.value)">
+        <input type="range" id="a" value="50"> 100 +
+        <input type="number" id="b" value="50">=
+        <output name="x" for="a b"></output>
+
+    </form>
+    <br><br>
+
+    <form oninput="x.value=parseInt(a.value) / parseInt(b.value)">
+        <input type="range" id="a" value="100"> 100 /
+        <input type="number" id="b" value="50">=
+        <output name="x" for="a b"></output>
+    </form>
+    <br><br>
+    <form oninput="x.value = (parseInt(a.value)*2 + parseInt(b.value)*2)">
+        <a><b>Chu vi hình chữ nhật</b></a>
+        <input type="number" id="a" placeholder="Nhập chiều dài ">*2 +
+        <input type="number" id="b" placeholder="Nhập chiều rộng">*2=
+        <output name="x" for="a b"></output>
+    </form>
+    <br><br>
+    <form oninput="x.value = parseInt(a.value)*parseInt(b.value)">
+        <a><b>Diện tích hình chữ nhật</b></a>
+        <input type="number" id="a" placeholder="Nhap chieu dai"> *
+        <input type="number" id="b" placeholder="Nhap chieu rong">=
+        <output name="x" for="a b"></output>
+
+    </form>
+    <br><br>
+    &lt;form oninput="x.value = (parseInt(a.value)*2 + parseInt(b.value)*2)"&gt;<br>
+        &lt;a&gt;&lt;b&gt;Chu vi hình chữ nhật &lt;/b&gt;&lt;/a&gt;<br>
+        &lt;input type="number" id="a" placeholder="Nhập chiều dài "&gt;*2 +<br>
+        &lt;input type="number" id="b" placeholder="Nhập chiều rộng"&gt;*2=<br>
+        &lt;output name="x" for="a b"&gt;&lt;/output&gt;<br>
+    &lt;/form&gt;
+    <br><br>
+    <input type="button" value="Bấm vào đây">
+    <iframe src="https://www.youtube.com/embed/FHp5qsyr6vk?si=HPgy3lBy7YA7ZWd_" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQU0aATVAUA?si=-YkdU0KV-KAAqHhp"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <form>
+        Tìm kiếm <input type="text" name="search" placeholder="Nội dung tìm kiếm">
+    </form>
+</body>
+
+</html>

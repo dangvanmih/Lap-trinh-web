@@ -1,0 +1,24 @@
+.recapcha {
+    background-color: #f9f9f9;
+    width: 200px;
+    height: 90px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.capcha {
+    margin: -40px 0px 0px 130px;
+}
+.note{
+    margin-left: 5px;;
+}
+.note1{
+    margin-top: -10px;
+}
+
+.note2{
+    margin-left: 135px;
+}
+.note3{
+    margin-top: -10px;
+    margin-left: 130px;
+}

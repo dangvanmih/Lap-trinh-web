@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        Nhap vao so a: <input type="number" id="SoA">
+    </div>
+    <div>
+        Nhap vao so b: <input type="number" id="SoB">
+    </div>
+    <div>
+        a + b = <input type="number" id="ketQua" readonly>
+    </div>
+    <div>
+        <button onclick="tinhToan()">Tính</button>
+    </div>
+    <script>
+        function tinhToan() {
+            var SoA = document.getElementById('SoA').value;
+            var SoB = document.getElementById('SoB').value;
+            var ketQua = parseInt(SoA) + parseInt(SoB);
+            document.getElementById('ketQua').value = ketQua;
+            
+        }
+    </script>
+</body>
+</html>
