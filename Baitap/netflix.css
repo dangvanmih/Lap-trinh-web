@@ -1,0 +1,212 @@
+#wallpaper{
+    /* background-image: url(/images/imagesNetflix/AAAABTZqoShzp-U9ypkzn7k5bJRS5TiYRDlLC8jSYICvJOuVBudfr9MDl4NMgdH56YUbN_SRNiKz9dY5dTV0YYCrZfj8K2aSCZnFjwku.jpg); */
+    background-image: url(/images/img-marvel/54732-3840x2160-desktop-4k-marvel-heroes-wallpaper-image.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    border-bottom:1px solid #f30f1e86;
+}
+body{
+    background-color: black;
+    margin: 0px;
+    position: relative;
+    z-index: -1000;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+
+header img{
+    position: relative;
+    top: -20px;
+    width: 200px;
+    height: auto;
+}
+header{
+    z-index: 1;
+    position: fixed;
+    height: 90px;
+    display: flex;
+    background-color: rgba(2, 2, 2, 0.433);
+    width: 2000px;
+    height: 75px;
+
+}
+#container ul{
+    position: relative;
+    top: 7px;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+
+}
+#comtainer ul li {
+    text-decoration: none;
+}
+#container ul li a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0px;
+    font-size: 17px;
+}
+#container ul li a::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    background-color: #F30F20;
+    bottom: 0;
+    left: 0;
+    transition: all 0.4s ease-in-out;
+}
+#container ul li a:hover::after{
+    width: 50%;
+    transform: translate(100%);
+}
+#container .fa-magnifying-glass{
+    color: white;
+}
+#container .fa-bell{
+    color: white;
+}
+#container .fa-angle-down{
+    color: white;
+}
+#container .icon {
+    right: -120px;
+    position: relative;
+    gap: 20px;
+    display: flex;
+}
+#container .fa-magnifying-glass:hover{
+    color: #F30F20;
+    transform: scale(1.5); 
+    transition: all 0.3s ease;
+}
+#container .fa-bell:hover{
+    color: #F30F20;
+    transform: scale(1.5); 
+    transition: all 0.3s ease;
+}
+#container .fa-angle-down:hover{
+    color: #F30F20;
+    transform: scale(1.5); 
+    transition: all 0.3s ease;
+}
+#wallpaper{
+    margin-bottom: 10px;
+}
+#title{
+    font-size: 30px;
+    padding-left: 10px;
+    color: white;
+    margin-bottom: 10px;
+    color: #f30f1ecf;
+    font-weight: 700;
+}
+.container-2{
+    gap: 40px;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+}
+.container-2 img{
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    padding-bottom: 20px;
+}
+
+.container-2 img:hover {
+    opacity: .5;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    border: 3px solid #f30f1ecf;
+}
+.container-2{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f30f1e55;
+}
+.container-3 .icon-2{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    left: 50px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.container-3 .icon-2:first-child div a{
+    text-decoration: none;
+    color: #f30f1e88;
+}
+.container-3 .icon-2 .fa-facebook{
+    color: #f30f1ecf;
+}
+.container-3 .icon-2 .fa-instagram{
+    color: #f30f1ecf;
+}
+.container-3 .icon-2 .fa-twitter{
+    color: #f30f1ecf;
+}
+.container-3 .icon-2 .fa-youtube{
+    color: #f30f1ecf;
+}
+.container-3 .icon-2 .fa-facebook:hover{
+    opacity: .7;
+    transform: scale(1.08);
+    transition: all 0.4 ease;
+}
+.container-3 .icon-2 .fa-instagram:hover{
+    opacity: .7;
+    transform: scale(1.08);
+    transition: all 0.4 ease;
+}.container-3 .icon-2 .fa-twitter:hover{
+    opacity: .7;
+    transform: scale(1.08);
+    transition: all 0.4 ease;
+}.container-3 .icon-2 .fa-youtube:hover{
+    opacity: .7;
+    transform: scale(1.08);
+    transition: all 0.4 ease;
+}
+.container-3{
+    margin-bottom: 30px;
+}
+.container-4{
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+.container-4 ul li{
+    padding-bottom: 10px;
+}
+.container-4 ul li a{
+    text-decoration: none;
+    color: #f30f1e88;
+    border-bottom: 1px solid transparent;
+}
+.container-4 ul li a:hover{
+    border-bottom: 1px solid #f30f1ecf;
+
+}
+#option{
+    text-align: center;
+    width: 130px;
+    height: 50px;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(128, 128, 128, 0.108);
+}
+select{
+   
+    outline: none;
+    border-color:#333
+}
+#option-1{
+    padding-top: 20px;
+    margin-left: 26px;
+    color: #f30f1e88; 
+}
