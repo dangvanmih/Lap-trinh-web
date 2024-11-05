@@ -35,9 +35,15 @@ button {
 
 }
 .content:hover{
-    opacity: .7;
-    transform: scale(1.08);
-    transition: all 0.3s ease;
+    opacity: .7; 
+    /* làm phần tử trong suốt hơn một chút với độ trong suốt là 70% */
+    transform: scale(1.08); 
+    /* phóng to phần tử lên 108% tạo cảm giác khi hover vào thì phần tử sẽ lớn hơn một chút*/
+    transition: all 0.3s ease; 
+    /*Tạo hiệu ứng chuyển động mượt mà cho các thay đổi của thuộc tính opacity và transform. Cụ thể:
+    all: Áp dụng cho tất cả các thuộc tính có thay đổi.
+    0.3s: Hiệu ứng diễn ra trong 0.3 giây.
+     ease: Kiểu chuyển động bắt đầu nhanh, chậm dần rồi kết thúc. */
 
 }
 #screen{
