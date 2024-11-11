@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+ }
+ a{
+    text-decoration: none;
+    color: #5a5a5a;
+ }
+ img{
+    cursor: pointer; /* khi hover vào phần tử thì con trỏ chuột sẽ đổi qua thành bàn tay */
+ }
+ .flex-div{
+    display: flex;
+    align-items: center;
+ }
+ nav {
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* đổ bóng cho phần tử */
+    background: #fff;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+ }
+
+ .nav-right i:last-child img {
+    width: 30px;
+    margin-right: 25px;
+    border-radius: 50%;
+ }
+
+ .nav-left{
+    box-sizing: border-box;
+    display: flex;
+ }
+ .nav-right i:nth-child(1),i:nth-child(2){
+    font-size: 20px;
+    color: #5a5a5a;
+ }
+ .nav-right{
+    gap: 20px;
+    box-sizing: border-box;
+    display: flex;
+ }
+ .nav-left .menu-icon{
+    width: 25px;
+    margin-right: 25px;
+ }
+ .nav-left .logo{
+    width: 130px;
+ }
+ .nav-mid .search-box{
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 25px;
+ }
+ .search-box input{
+    width: 400px;
+    border: 0;
+    background: transparent; /* nền trong suốt */
+    outline: 0; /* không có đường viền bao quanh phần tử */
+ }
+
+/* ------------------------------------sidebar--------------------------------- */
+
+.sidebar{
+   top: 0;
+   background-color: #fff;
+   width: 15%;
+   height: 100vh;
+   position: fixed;
+   padding-left: 2%;
+   padding-top: 90px;
+}
+.shortcut-link .fa-house, .fa-ticket-simple, .fa-tv, .fa-clock-rotate-left, .fa-list-ul, .fa-youtube, .fa-clock, .fa-thumbs-up, .fa-chevron-down{
+   font-size: 20px; 
+   margin-right: 20px;
+   color: rgb(38, 35, 35);
+}
+.shortcut-link a {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   width: fit-content; /* phần tử sẽ tự động điều chỉnh chiều rộng để vừa đủ chứa nội dung, không thừa không thiếu. */
+   flex-wrap: wrap;  /* các phần tử con sẽ được sắp xếp theo chiều ngang cho đến khi hết chỗ.
+                     Khi không còn đủ chỗ, các phần tử còn lại sẽ tự động xuống dòng và bắt đầu một dòng mới.*/
+}
+.shortcut-link .fa-house{
+   color: rgb(255, 68, 0);
+
+}
+.shortcut-link a:first-child{
+   color: rgb(255, 68, 0);
+
+}
+.sidebar hr {
+   border: 0;
+   height: 1px;
+   width: 85%;
+   background: #ccc;
+}
+.subcription-list h3{
+   font-size: 13px;
+   margin: 20px 0px;
+   color: #5a5a5a;
+}
+.subcription-list a {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   width: fit-content;
+   margin-bottom: 20px;
+}
+.subcription-list img{
+   width: 25px;
+   border-radius: 50px;
+   margin-right: 20px;
+}
+/* -------------------css-js-when onclick menu-icon------------------- */
+.small-sidebar{
+   width: 5%;
+}
+.small-sidebar a p {
+   display: none;
+}
+.small-sidebar h3{
+   display: none;
+}
+.small-sidebar hr{
+   width: 50%;
+   margin-bottom: 25px;
+}
+.container {
+   box-sizing: border-box;
+   background: #f9f9f9;
+   padding-left: 17%;
+   padding-right: 2%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.large-container{
+   padding-left: 7%;
+}
+.list-container{
+   word-wrap: break-word;
+
+   display: grid; /*Dòng này khai báo rằng phần tử list-container sẽ được hiển thị dưới dạng một lưới.
+    Điều này có nghĩa là các phần tử con bên trong nó sẽ được sắp xếp theo hàng và cột*/
+   grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); /*Dòng này định nghĩa cấu trúc của các cột trong lưới:
+   repeat(auto-fit, ...): Phần này nói rằng trình duyệt sẽ tự động lặp lại mẫu bên trong dấu ngoặc đơn nhiều lần cho đến khi lấp đầy toàn bộ không gian có sẵn.
+   minmax(250px, 1fr): Phần này xác định chiều rộng tối thiểu và tối đa của mỗi cột:
+   250px: Chiều rộng tối thiểu của mỗi cột là 250 pixel.
+   1fr: Đây là một đơn vị đo lường linh hoạt. Nó có nghĩa là không gian còn lại sẽ được chia đều cho tất cả các cột.*/
+   grid-column-gap: 30px ; /*Dòng này đặt khoảng cách giữa các cột là 30 pixel.*/
+   grid-row-gap: 30px ; /*Dòng này đặt khoảng cách giữa các hàng là 30 pixel.*/
+   margin-top: 15px;
+}
+.vid-list .thumbnail {
+   width: 250px;
+   height: 150px;
+   border-radius: 5%;
+}
+.vid-list .flex-div{
+   align-items: flex-start;
+   margin-top: 7px;
+}
+.vid-list-flex{
+   display: flex;
+}
+.flex-div img {
+   width: 35px;
+   margin-right: 10px;
+   border-radius: 50%;
+}
+.vid-info{
+   color: #5a5a5a;
+   font-size: 13px;
+}
+.vid-info a{
+   display: block; 
+   color: #000;
+   font-weight: 600;
+   margin-bottom: 5px;
+}

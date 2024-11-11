@@ -72,6 +72,19 @@ header{
 #container .fa-angle-down{
     color: white;
 }
+#container .fa-sun{
+    color: rgb(255, 255, 255);
+}
+#container .inner-icon-2 button{
+    border: none;
+    background-color: transparent;
+}
+#container .inner-icon-2 button i:hover{
+    color: #F30F20;
+    transform: scale(1.5); 
+    transition: all 0.3s ease;
+}
+
 #container .icon {
     right: -120px;
     position: relative;
@@ -115,7 +128,7 @@ header{
     height: 120px;
     border-radius: 10px;
     border: 3px solid transparent;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .container-2 img:hover {
@@ -124,7 +137,35 @@ header{
     transition: all 0.3s ease;
     border: 3px solid #f30f1ecf;
 }
+.container-2 #video1 iframe{
+    border-radius: 10px;
+    width: 200px;
+    height:120px;
+}
+.container-2 #video1:hover{
+    opacity: .7;
+    transform: scale(1.08);
+    transition: all 0.3 ease;
+}
+.container-2 #video1::after{
+    content: "";
+    position: absolute;
+    background-image: url(/images/imagesNetflix/2560-x-1080-marvel-luuk699edpyc1wt9.jpg);
+    background-size: 200px 120px;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    border-radius: 10px;
+
+}
+.container-2 #video1{
+    position: relative;
+}
 .container-2{
+    position: relative;
     padding-bottom: 10px;
     border-bottom: 1px solid #f30f1e55;
 }
